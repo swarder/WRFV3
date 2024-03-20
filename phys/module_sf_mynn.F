@@ -63,7 +63,7 @@ MODULE module_sf_mynn
   REAL, PARAMETER :: wmin=0.1    ! Minimum wind speed
   REAL, PARAMETER :: VCONVC=1.0
   REAL, PARAMETER :: SNOWZ0=0.011
-  REAL, PARAMETER :: COARE_OPT=3.5  ! 3.0 or 3.5
+  REAL, PARAMETER :: COARE_OPT=3.0  ! 3.0 or 3.5
 
   REAL, DIMENSION(0:1000 ),SAVE          :: PSIMTB,PSIHTB
 
